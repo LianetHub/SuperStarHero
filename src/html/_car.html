@@ -1,0 +1,44 @@
+<div class="auto-card@@className">
+    <div class="auto-card__slider swiper">
+        <div class="swiper-wrapper">
+            <a href="@img/offers/@@index.png" data-fancybox="gallery-@@id" class="auto-card__image swiper-slide">
+                <img src="@img/offers/@@index.png" class="cover-image" alt="Фото автомобиля">
+            </a>
+            <a href="@img/offers/02.png" data-fancybox="gallery-@@id" class="auto-card__image swiper-slide">
+                <img src="@img/offers/02.png" class="cover-image" alt="Фото автомобиля">
+            </a>
+            <a href="@img/offers/03.png" data-fancybox="gallery-@@id" class="auto-card__image swiper-slide">
+                <img src="@img/offers/03.png" class="cover-image" alt="Фото автомобиля">
+            </a>
+        </div>
+        <div class="auto-card__slider-pagination swiper-pagination"></div>
+        <a href="" aria-label="Добавить в избранное" class="auto-card__favorite favorite-btn"></a>
+    </div>
+    <div class="auto-card__body">
+        <a href="/product.html" class="auto-card__name">@@name</a>
+        <ul class="auto-card__props">
+            <li class="auto-card__props-item">
+                <div class="auto-card__props-name">Двигатель</div>
+                <div class="auto-card__props-value">@@engine</div>
+            </li>
+            <li class="auto-card__props-item">
+                <div class="auto-card__props-name">Пробег</div>
+                <div class="auto-card__props-value">@@mileage км</div>
+            </li>
+            <li class="auto-card__props-item">
+                <div class="auto-card__props-name">Год</div>
+                <div class="auto-card__props-value">@@year</div>
+            </li>
+        </ul>
+        <div class="auto-card__price">
+            <div class="auto-card__price-caption">Цена</div>
+            <div class="auto-card__price-value">
+                @@price ₽*
+            </div>
+        </div>
+        <div class="auto-card__bottom">
+            <a href="#order" data-fancybox class="auto-card__btn btn btn-primary btn-fullwidth">Оставить заявку</a>
+            <a href="/product.html" class="auto-card__btn btn btn-grey icon-arrow">Подробнее</a>
+        </div>
+    </div>
+</div>
