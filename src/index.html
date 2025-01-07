@@ -1,19 +1,180 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
     @@include('html/_head.html', {
-    'title': 'KingsAuto'
+    'title': 'SuperstarHero'
     })
     <body>
-        <section class="wrapper">
-            @@include('html/_header.html', {
-            "className": " header-transparent",
-            "login": false
-            })
+        <div class="wrapper">
+            @@include('html/_header.html', {})
             <main class="page">
-
+                <section class="promo">
+                    <div class="promo__container">
+                        <div class="promo__main">
+                            <h1 class="promo__title title title-sm">Unleash Your Superpowers in Digital Marketing</h1>
+                            <div class="promo__desc">
+                                Take your brand from zero to superhero. <br>
+                                Unlock the secrets to:
+                                <ul>
+                                    <li>Killer ROI</li>
+                                    <li>Epic traffic growth</li>
+                                    <li>Next-level analytics that keep your competitors in the dust</li>
+                                </ul>
+                                Don’t just play the game. Change it!
+                            </div>
+                            <a href="#activate" data-fancybox class="promo__btn btn btn-primary">Power Up Your ROI</a>
+                        </div>
+                        <div class="promo__image">
+                            <img src="@img/hero.jpg" class="cover-image" alt="hero image">
+                        </div>
+                    </div>
+                </section>
+                <section id="who" class="desc">
+                    <div class="desc__container">
+                        <h2 class="desc__title title">
+                            SuperstarHero: For Businesses Ready to Win
+                        </h2>
+                        <div class="desc__body">
+                            <p>Our expert team launches high-converting ad campaigns on Facebook, Google, TikTok, YouTube, LinkedIn, and Instagram, guaranteeing results.</p>
+                            <p>SuperstarHero is your ultimate weapon in the digital marketing battlefield. We craft strategies that crush competition, boost engagement, and turn clicks into loyal customers.</p>
+                            <p>With us, you’re not just increasing ROI—you’re smashing records. Let’s take that ROI to 1000% and push CR to 100%!</p>
+                            <p>Step into the spotlight and let your business shine. With our expert team by your side, you’re unstoppable. The journey to legend status starts now!</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="solutions" class="ads">
+                    <div class="ads__container">
+                        <h2 class="ads__title title">
+                            Your Superhero Team for Digital Advertising
+                        </h2>
+                        <p class="ads__desc">
+                            We specialize in ad campaigns that deliver results across all major platforms. Our superpowers include:
+                        </p>
+                        <ul class="ads__list">
+                            <li class="ads__item">
+                                <div class="ads__item-icon">
+                                    <img src="@img/icons/meta.svg" alt="icon">
+                                </div>
+                                <div class="ads__item-caption">Meta Ads</div>
+                                <p class="ads__item-text">Targeted campaigns that grab attention, stop the scroll, and drive engagement.</p>
+                            </li>
+                            <li class="ads__item">
+                                <div class="ads__item-icon">
+                                    <img src="@img/icons/google-ads.svg" alt="icon">
+                                </div>
+                                <div class="ads__item-caption">Google Ads</div>
+                                <p class="ads__item-text">Put your business on top of search results and boost high-quality conversions.</p>
+                            </li>
+                            <li class="ads__item">
+                                <div class="ads__item-icon">
+                                    <img src="@img/icons/tiktok-ads.svg" alt="icon">
+                                </div>
+                                <div class="ads__item-caption">TikTok & YouTube Ads</div>
+                                <p class="ads__item-text">Explosive video campaigns that expand your reach and go viral.</p>
+                            </li>
+                            <li class="ads__item">
+                                <div class="ads__item-icon">
+                                    <img src="@img/icons/linkedin-ads.svg" alt="icon">
+                                </div>
+                                <div class="ads__item-caption">LinkedIn Ads</div>
+                                <p class="ads__item-text">Precision-targeted B2B strategies that maximize ROI and build connections.</p>
+                            </li>
+                        </ul>
+                        <p class="ads__hint">Every campaign is a mission: planned, executed, and optimized for ultimate success.</p>
+                    </div>
+                </section>
+                <section id="why" class="benefits">
+                    <div class="benefits__container">
+                        <div class="benefits__body">
+                            <h2 class="benefits__title title">
+                                Why Businesses br Trust SuperstarHero
+                            </h2>
+                            <p class="benefits__subtitle">"We don’t make promises — we deliver results. Here’s what makes us stand out:</p>
+                            <ul class="benefits__list">
+                                <li class="benefits__item">
+                                    <div class="benefits__item-icon">
+                                        <img src="@img/icons/energy.svg" alt="icon">
+                                    </div>
+                                    <div class="benefits__item-caption">Heroic Strategy</div>
+                                    <p class="benefits__item-desc">Every ad campaign is tailored to your goals for maximum impact.</p>
+                                </li>
+                                <li class="benefits__item">
+                                    <div class="benefits__item-icon">
+                                        <img src="@img/icons/battery.svg" alt="icon">
+                                    </div>
+                                    <div class="benefits__item-caption">Powerful Analytics</div>
+                                    <p class="benefits__item-desc">Transparent, real-time insights to show where every dollar goes.</p>
+                                </li>
+                                <li class="benefits__item">
+                                    <div class="benefits__item-icon">
+                                        <img src="@img/icons/comet.svg" alt="icon">
+                                    </div>
+                                    <div class="benefits__item-caption">Creative Excellence</div>
+                                    <p class="benefits__item-desc">Ads that captivate and convert.</p>
+                                </li>
+                                <li class="benefits__item">
+                                    <div class="benefits__item-icon">
+                                        <img src="@img/icons/rocket.svg" alt="icon">
+                                    </div>
+                                    <div class="benefits__item-caption">Proven Expertise</div>
+                                    <p class="benefits__item-desc">Our heroes know every trick to dominate Facebook, Google, and beyond.</p>
+                                </li>
+                            </ul>
+                            <p class="benefits__hint">Stop waiting for miracles — be the miracle your business deserves!</p>
+                        </div>
+                        <div class="benefits__image">
+                            <img src="@img/hero-2.jpg" class="cover-image" alt="hero image">
+                        </div>
+                    </div>
+                </section>
+                <section class="steps">
+                    <div class="steps__container">
+                        <h2 class="steps__title title">Four Steps to Digital Success</h2>
+                        <ul class="steps__list">
+                            <li class="steps__item" style="--step-count: 1">
+                                <div class="steps__item-body">
+                                    <div class="steps__item-caption">Discovery</div>
+                                    <p class="steps__item-desc">
+                                        We learn about your business, goals, and audience.</p>
+                                </div>
+                            </li>
+                            <li class="steps__item" style="--step-count: 2">
+                                <div class="steps__item-body">
+                                    <div class="steps__item-caption">Strategize</div>
+                                    <p class="steps__item-desc">
+                                        We craft a data-driven ad strategy with compelling creatives.</p>
+                                </div>
+                            </li>
+                            <li class="steps__item" style="--step-count: 3">
+                                <div class="steps__item-body">
+                                    <div class="steps__item-caption">Launch</div>
+                                    <p class="steps__item-desc">Campaigns go live with real-time testing and optimization.</p>
+                                </div>
+                            </li>
+                            <li class="steps__item" style="--step-count: 4">
+                                <div class="steps__item-body">
+                                    <div class="steps__item-caption">Scale</div>
+                                    <p class="steps__item-desc">We analyze, optimize, and grow your results.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="ready">
+                    <div class="ready__container">
+                        <h2 class="ready__title title">
+                            Ready to Become the Hero of Your Industry?
+                        </h2>
+                        <p class="ready__desc">
+                            SuperstarHero is here to supercharge your business and set you apart from the competition.
+                            Start your journey to digital stardom today!
+                        </p>
+                        <a href="#activate" data-fancybox class="ready__btn btn btn-primary">Activate Hero Mode</a>
+                    </div>
+                </section>
             </main>
             @@include('html/_footer.html', {})
-            <!-- @@include('html/_modal.html', {}) -->
+            @@include('html/_modal.html', {})
             @@include('html/_js.html', {})
+        </div>
     </body>
 </html>
