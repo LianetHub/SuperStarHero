@@ -4,7 +4,6 @@
 if (typeof Fancybox !== "undefined" && Fancybox !== null) {
     Fancybox.bind("[data-fancybox]", {
         dragToClose: false,
-        closeButton: false
     });
 }
 
@@ -59,8 +58,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    Fancybox.show([{
-        src: "#activate"
-    }])
 
 });
