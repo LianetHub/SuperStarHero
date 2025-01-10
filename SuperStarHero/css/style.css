@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "Roboto";
-  font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Lemon";
   font-display: swap;
   src: url("../fonts/Lemon-Regular.woff") format("woff"), url("../fonts/Lemon-Regular.woff2") format("woff2");
@@ -17,8 +9,8 @@
 @font-face {
   font-family: "Roboto";
   font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
-  font-weight: 400;
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -27,6 +19,14 @@
   font-display: swap;
   src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff2");
   font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -799,7 +799,8 @@ section {
 }
 
 .privacy__body a {
-  color: #f00;
+  color: #fff;
+  text-decoration: underline;
   font-weight: 700;
 }
 
@@ -1091,7 +1092,7 @@ section {
   }
 
   .privacy__body a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 

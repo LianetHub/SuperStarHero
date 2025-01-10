@@ -517,11 +517,12 @@ section {
 			}
 		}
 		& a {
-			color: #f00;
+			color: #fff;
+			text-decoration: underline;
 			font-weight: 700;
 			@media (any-hover: hover) {
 				&:hover {
-					text-decoration: underline;
+					text-decoration: none;
 				}
 			}
 		}
