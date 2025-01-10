@@ -16,10 +16,8 @@
 // ======================================ИКОНОЧНЫЙ ШРИФТ======================================
 
 // Шрифт по умолчанию
-$fontfamily: "Sanchez";
-$font-roboto: "Roboto";
+$fontfamily: "Roboto";
 $font-lemon: "Lemon";
-$font-quantum: "QuantumProfit";
 
 // Шрифт по умолчанию
 
@@ -162,7 +160,6 @@ section {
 		margin-top: em(32, 24);
 		width: 100%;
 		color: #d2dbe2;
-		font-family: $font-roboto;
 		line-height: 166.667%;
 		font-size: 1.25rem;
 		@media (min-width: $md5) {
@@ -217,7 +214,6 @@ section {
 	// .desc__body
 	&__body {
 		margin-top: 2.5rem;
-		font-family: $font-roboto;
 		line-height: 166.667%;
 		display: grid;
 		gap: 1rem;
@@ -494,7 +490,6 @@ section {
 	// .privacy__body
 	&__body {
 		margin-top: em(5, 1.5);
-		font-family: $font-roboto;
 		line-height: 166.667%;
 		@media (min-width: $md4) {
 			font-size: 1.5rem;
