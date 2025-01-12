@@ -172,8 +172,7 @@ section {
 				&::before {
 					content: "";
 					position: absolute;
-					top: 50%;
-					transform: translateY(-50%);
+					top: 0.55em;
 					left: 0;
 					width: em(13, 24);
 					height: em(13, 24);
@@ -310,7 +309,7 @@ section {
 		line-height: 181.818%;
 		font-size: 1.125rem;
 		@media (min-width: $md5) {
-			font-size: 1.3rem;
+			font-size: rem(24);
 		}
 	}
 	// .benefits__list
@@ -353,7 +352,7 @@ section {
 		line-height: 181.818%;
 		font-size: 1.125rem;
 		@media (min-width: $md5) {
-			font-size: 1.375rem;
+			font-size: rem(24);
 		}
 	}
 	// .benefits__image
@@ -443,7 +442,7 @@ section {
 		line-height: 181.818%;
 		max-width: 64rem;
 		@media (min-width: $md4) {
-			font-size: 1.375rem;
+			font-size: rem(24);
 		}
 	}
 	// .ready__btn
@@ -458,6 +457,7 @@ section {
 }
 
 .privacy {
+	border-bottom: 0;
 	// .privacy__container
 	&__container {
 	}

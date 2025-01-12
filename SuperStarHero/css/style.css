@@ -532,10 +532,7 @@ section {
 .promo__desc ul li::before {
   content: "";
   position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 0.55em;
   left: 0;
   width: 0.5416666667em;
   height: 0.5416666667em;
@@ -739,6 +736,10 @@ section {
   min-width: 18.125rem;
 }
 
+.privacy {
+  border-bottom: 0;
+}
+
 .privacy__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -847,7 +848,7 @@ section {
   }
 
   .benefits__subtitle {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .benefits__list {
@@ -866,7 +867,7 @@ section {
   }
 
   .benefits__hint {
-    font-size: 1.375rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -943,7 +944,7 @@ section {
   }
 
   .ready__desc {
-    font-size: 1.375rem;
+    font-size: 1.5rem;
   }
 
   .privacy__header {
@@ -1067,6 +1068,7 @@ section {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    width: 100%;
   }
 }
 
