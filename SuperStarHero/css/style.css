@@ -9,8 +9,8 @@
 @font-face {
   font-family: "Roboto";
   font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
-  font-weight: 700;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -25,8 +25,8 @@
 @font-face {
   font-family: "Roboto";
   font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
-  font-weight: 400;
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -610,7 +610,7 @@ section {
 
 .ads__hint {
   margin-top: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 166.667%;
 }
 
@@ -923,6 +923,10 @@ section {
     gap: 2.5rem 1.5rem;
     -ms-grid-columns: 1fr 1.125fr;
     grid-template-columns: 1fr 1.125fr;
+  }
+
+  .ads__hint {
+    font-size: 1.5rem;
   }
 
   .steps__item::before {

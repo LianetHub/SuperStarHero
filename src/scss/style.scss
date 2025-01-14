@@ -282,7 +282,10 @@ section {
 	// .ads__hint
 	&__hint {
 		margin-top: 4rem;
-		font-size: 1.5rem;
+		font-size: 1.25rem;
+		@media (min-width: $md4) {
+			font-size: 1.5rem;
+		}
 		line-height: 166.667%;
 	}
 }
