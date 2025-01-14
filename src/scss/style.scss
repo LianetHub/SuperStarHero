@@ -225,14 +225,14 @@ section {
 	}
 }
 
-.ads {
-	// .ads__container
+.solutions {
+	// .solutions__container
 	&__container {
 	}
-	// .ads__title
+	// .solutions__title
 	&__title {
 	}
-	// .ads__desc
+	// .solutions__desc
 	&__desc {
 		margin-top: 2rem;
 		line-height: 166.667%;
@@ -241,7 +241,7 @@ section {
 			font-size: 1.5rem;
 		}
 	}
-	// .ads__list
+	// .solutions__list
 	&__list {
 		margin-top: 2rem;
 		display: grid;
@@ -254,32 +254,32 @@ section {
 			grid-template-columns: repeat(4, 1fr);
 		}
 	}
-	// .ads__item
+	// .solutions__item
 	&__item {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 	}
-	// .ads__item-icon
+	// .solutions__item-icon
 	&__item-icon {
 		height: 4.3125rem;
 		display: flex;
 		align-items: center;
 	}
-	// .ads__item-caption
+	// .solutions__item-caption
 	&__item-caption {
 		margin-top: 0.94rem;
 
 		font-size: 1.5625rem;
 		line-height: 160%;
 	}
-	// .ads__item-text
+	// .solutions__item-text
 	&__item-text {
 		margin-top: 1rem;
 		font-size: 1.25rem;
 		line-height: 200%;
 	}
-	// .ads__hint
+	// .solutions__hint
 	&__hint {
 		margin-top: 4rem;
 		font-size: 1.25rem;
