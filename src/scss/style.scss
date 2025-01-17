@@ -334,19 +334,20 @@ section {
 	}
 	// .benefits__item-caption
 	&__item-caption {
-		margin-top: 0.75rem;
 		line-height: 160%;
-		font-size: 1.25rem;
+		font-size: 1.5625rem;
+		margin-top: rem(15);
 		@media (min-width: $md5) {
-			font-size: 1.5625rem;
+			margin-top: 0.75rem;
 		}
 	}
 	// .benefits__item-desc
 	&__item-desc {
-		margin-top: 0.5rem;
 		line-height: 200%;
+		font-size: 1.25rem;
+		margin-top: 1rem;
 		@media (min-width: $md5) {
-			font-size: 1.25rem;
+			margin-top: 0.5rem;
 		}
 	}
 	// .benefits__hint
