@@ -9,16 +9,16 @@
 @font-face {
   font-family: "Roboto";
   font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
-  font-weight: 700;
+  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
   font-display: swap;
-  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff2");
-  font-weight: 500;
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -628,7 +628,7 @@ section {
 .benefits__subtitle {
   margin-top: 1.94rem;
   line-height: 181.818%;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .benefits__list {
@@ -653,7 +653,7 @@ section {
 .benefits__hint {
   margin-top: 2rem;
   line-height: 181.818%;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .steps__list {
@@ -700,15 +700,17 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0.25rem 0;
 }
 
 .steps__item-caption {
   line-height: 160%;
-  font-size: 1.25rem;
+  font-size: 1.5625rem;
 }
 
 .steps__item-desc {
   margin-top: 0.25rem;
+  font-size: 1.25rem;
 }
 
 .no-webp .ready {
@@ -722,6 +724,7 @@ section {
   margin-top: 1rem;
   line-height: 181.818%;
   max-width: 64rem;
+  font-size: 1.25rem;
 }
 
 .ready__btn {
@@ -935,13 +938,8 @@ section {
     padding: 3rem 2rem;
   }
 
-  .steps__item-caption {
-    font-size: 1.5625rem;
-  }
-
   .steps__item-desc {
     line-height: 200%;
-    font-size: 1.25rem;
   }
 
   .ready {
